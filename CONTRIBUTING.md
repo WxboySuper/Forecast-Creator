@@ -28,7 +28,7 @@ git checkout -b feature/your-feature-name
 
 - Follow C# coding conventions
 - Use MVVM pattern for WPF components
-- Add XML documentation for public APIs
+- Add XML documentation for the public APIs
 - Include unit tests for new features
 
 ## Pull Request Process
@@ -36,7 +36,7 @@ git checkout -b feature/your-feature-name
 1. Update documentation for any new features
 2. Ensure all tests pass
 3. Update the README.md if needed
-4. Create a pull request with a clear description of changes
+4. Submit a pull request with a clear description of changes
 5. Link any related issues
 
 ## Commit Messages

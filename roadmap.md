@@ -9,10 +9,10 @@
 
 ## Phase 2 - Core Features
 - [ ] Implement drawing tools
-    - [ ] Freehand drawing
-    - [ ] Polygons/shapes
-    - [ ] Text annotations
-    - [ ] Contours
+  - [ ] Freehand drawing
+  - [ ] Polygons/shapes
+  - [ ] Text annotations
+  - [ ] Contours
 - [ ] Layer management system
 - [ ] Save/load forecasts (JSON)
 - [ ] Basic export functionality (PNG, KML)
@@ -20,8 +20,8 @@
 ## Phase 3 - Weather Data Integration
 - [ ] Basic radar/satellite data plotting
 - [ ] Mesoanalysis data support
-    - [ ] NetCDF/GRIB2 file handling
-    - [ ] Data visualization layers
+  - [ ] NetCDF/GRIB2 file handling
+  - [ ] Data visualization layers
 - [ ] Weather report overlays
 - [ ] Layer customization (opacity, colors)
 
