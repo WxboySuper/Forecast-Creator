@@ -1,7 +1,7 @@
 # Forecast Creator Roadmap
 
 ## Phase 1 - Foundation (Current)
-- [ ] Setup GitHub Repository
+- [x] Setup GitHub Repository
 - [ ] Initialize WPF project structure
 - [ ] Setup basic MVVM architecture
 - [ ] Implement base CONUS map display
