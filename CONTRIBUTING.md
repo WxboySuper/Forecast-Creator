@@ -27,7 +27,7 @@ git checkout -b feature/your-feature-name
 ## Coding Standards
 
 - Follow C# coding conventions
-- Use MVVM pattern for WPF components
+- Use the MVVM pattern for WPF components
 - Add XML documentation for the public APIs
 - Include unit tests for new features
 
@@ -46,13 +46,13 @@ git checkout -b feature/your-feature-name
 - Keep first line under 72 characters
 
 Example:
-```
+```text
 Add radar data overlay functionality
 ```
 
 ## Questions or Issues?
 
-Feel free to open an issue for:
+If you encounter any issues, please open an issue for:
 - Bug reports
 - Feature requests
 - Documentation improvements
