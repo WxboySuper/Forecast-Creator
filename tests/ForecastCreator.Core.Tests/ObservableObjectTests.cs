@@ -1,7 +1,8 @@
 using ForecastCreator.Core.Base;
+using ForecastCreator.Core.Tests.TestObjects;
 using Xunit;
 
-namespace ForecastCreator.Core.Tests.Base
+namespace ForecastCreator.Core.Tests
 {
     public class ObservableObjectTests
     {
@@ -34,16 +35,6 @@ namespace ForecastCreator.Core.Tests.Base
 
             // Assert
             Assert.False(propertyChanged);
-        }
-    }
-
-    public class TestObservableObject : ObservableObject
-    {
-        private string _testProperty = "";
-        public string TestProperty
-        {
-            get => _testProperty;
-            set => SetField(value, ref _testProperty);
         }
     }
 }
