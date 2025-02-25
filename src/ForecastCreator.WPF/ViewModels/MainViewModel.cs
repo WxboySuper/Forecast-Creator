@@ -8,7 +8,7 @@ namespace ForecastCreator.WPF.ViewModels
         public string Title
         {
             get => _title;
-            set => SetField(ref _title, value);
+            set => SetField(value, ref _title);
         }
     }
 }

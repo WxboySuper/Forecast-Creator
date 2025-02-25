@@ -43,7 +43,7 @@ namespace ForecastCreator.Core.Tests.Base
         public string TestProperty
         {
             get => _testProperty;
-            set => SetField(ref _testProperty, value);
+            set => SetField(value, ref _testProperty);
         }
     }
 }
