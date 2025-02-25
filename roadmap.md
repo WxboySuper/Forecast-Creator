@@ -2,8 +2,8 @@
 
 ## Phase 1 - Foundation (Current)
 - [x] Setup GitHub Repository
-- [ ] Initialize WPF project structure
-- [ ] Setup basic MVVM architecture
+- [x] Initialize WPF project structure
+- [x] Setup basic MVVM architecture
 - [ ] Implement base CONUS map display
 - [ ] Basic drawing infrastructure with SkiaSharp
 
