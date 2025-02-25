@@ -9,7 +9,7 @@
 ### Core Library (ForecastCreator.Core)
 - Base /
     - ObservableObject.cs
-    - ReplayCommand.cs
+    - RelayCommand.cs
 - Models/ (planned)
 - Services/ (planned)
 
@@ -30,7 +30,7 @@
     - Testable view models
     - Data binding support
 
-2. ShiaSharp Graphics
+2. SkiaSharp Graphics
     - Cross-platform capability
     - High-performance 2D graphics
     - Hardware acceleration support
