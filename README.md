@@ -45,7 +45,7 @@ A Windows desktop application for creating graphical weather forecasts, with sup
 4. Build and run:
     ```bash
     dotnet build
-    dotnet run -- project src/ForecastCreator.WPF
+    dotnet run --project src/ForecastCreator.WPF
     ```
 
 ## Contributing
