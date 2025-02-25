@@ -35,4 +35,19 @@ public class ObservableObjectTests
         // Assert
         Assert.False(propertyChanged);
     }
+
+    [Fact]
+    public void PropertyChanged_ShouldRaiseEvent()
+    {
+        // Arrange
+        var testObject = new TestObservableObject();
+        string? propertyName = null;
+        testObject.PropertyChanged += (s, e) => propertyName = e.PropertyName;
+
+        // Act
+        testObject.TestProperty = "test";
+
+        // Assert
+        Assert.Equal(nameof(TestObservableObject.TestProperty), propertyName);
+    }
 }

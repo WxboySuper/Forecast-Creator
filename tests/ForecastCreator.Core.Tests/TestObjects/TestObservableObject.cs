@@ -1,6 +1,6 @@
 using ForecastCreator.Core.Base;
 
-namespace ForecastCreator.Core.Tests.TestObjects;
+namespace ForecastCreator.Core.Tests.TestObjects
 {
     public class TestObservableObject : ObservableObject
     {
@@ -8,7 +8,7 @@ namespace ForecastCreator.Core.Tests.TestObjects;
         public string? TestProperty
         {
             get => _testProperty;
-            set => SetField(value, ref _testProperty);
+            set => SetProperty(value, ref _testProperty);
         }
     }
 }
