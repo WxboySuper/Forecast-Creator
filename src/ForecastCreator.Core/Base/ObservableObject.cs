@@ -1,8 +1,8 @@
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
-namespace ForecastCreator.Core.Base
-{
+namespace ForecastCreator.Core.Base;
+
     public abstract class ObservableObject : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler? PropertyChanged;
@@ -20,4 +20,3 @@ namespace ForecastCreator.Core.Base
             return true;
         }
     }
-}

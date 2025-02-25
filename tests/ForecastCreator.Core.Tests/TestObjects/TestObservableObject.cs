@@ -1,6 +1,6 @@
 using ForecastCreator.Core.Base;
 
-namespace ForecastCreator.Core.Tests.TestObjects
+namespace ForecastCreator.Core.Tests.TestObjects;
 {
     public class TestObservableObject : ObservableObject
     {
