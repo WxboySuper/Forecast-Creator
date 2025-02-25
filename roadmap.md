@@ -4,6 +4,7 @@
 - [x] Setup GitHub Repository
 - [x] Initialize WPF project structure
 - [x] Setup basic MVVM architecture
+- [x] Configure SkiaSharp integration
 - [ ] Implement base CONUS map display
 - [ ] Basic drawing infrastructure with SkiaSharp
 
