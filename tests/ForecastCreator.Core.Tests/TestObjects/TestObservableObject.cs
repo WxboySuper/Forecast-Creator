@@ -8,7 +8,7 @@ namespace ForecastCreator.Core.Tests.TestObjects
         public string? TestProperty
         {
             get => _testProperty;
-            set => SetProperty(ref _testProperty, value);
+            set => SetProperty(value, ref _testProperty);
         }
     }
 }

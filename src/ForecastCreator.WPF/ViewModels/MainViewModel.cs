@@ -8,6 +8,6 @@ public class MainViewModel : ObservableObject
     public string Title
     {
         get => _title;
-        set => SetProperty(ref _title, value);  // Changed from SetField to SetProperty
+        set => SetProperty(value, ref _title);  // Changed from SetField to SetProperty
     }
 }
